@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UFT-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Curriculum Vitae</title>
+	<link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UBA.svg/1200px-UBA.svg.png"/>
+	<link rel="preconnect" href="http://fonts.googleapis.com">
+  <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+  <link href="http://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="cv-final.css"/>
+</head>
+<body>
+  
+<div class="row">
+  <div class="col-4" style="background-color: green;">
+    <div class="container-fluid">
+      <h1 class="letrasBlancas">Alejandra Midori</h1>
+      <img class="imagenes" src="https://cdn2.actitudfem.com/media/files/media/files/ritual-belleza-japonesas-modelo.jpg">
+      <h2 class="letrasBlancas">Datos Personales</h2>
+      <div class="letrasBlancas" id="datosPersonales">
+        <h5 id="edad">Edad</h5>
+        <p id="anios">31</p>
+        <h5 id="nacimiento">Fecha de Nacimiento</h5>
+        <p id="fecha">26 de Marzo de 1991.</p>
+        <h5 id="email">E-mail</h5>
+        <p id="mail">midori.alejandra @mail.com</p>
+        <h5 id="direccion">Direccion</h5>
+        <p id="calle">San Martin 147, Alvarado, Buenos Aires</p>
+        <h5 id="nacion">Nacionalidad</h5>
+        <p id="argentina">Argentina</p>
+      </div>
+      <h2 class="letrasBlancas">Habilidades</h2>
+      <div class="letrasBlancas" id="habilidades">
+        <ul>
+          <li>Ilustración Digital</li>
+          <li>Adobe Photoshop</li>
+          <li>Diseño de Personajes</li>
+          <li>Teoría del Color</li>
+          <li>Diseño de Storyboard</li>
+        </ul>
+      </div>
+      <h2 class="letrasBlancas">Idiomas</h2>
+      <div class="letrasBlancas" id="idiomas">
+        <p id="esp">Español - Nativo</p>
+        <p id="jap">Japonés - Nativo</p>
+        <audio id="audioJap" controls>
+        <source src="https://www.googleapis.com/download/storage/v1/b/play-68705.appspot.com/o/full_-LQAeJOB7y338xxay2E1.mp3?generation=1541015164749315&amp;alt=media" type="audio/mpeg">
+        <source src="https://www.googleapis.com/download/storage/v1/b/play-68705.appspot.com/o/full_-LQAeJOB7y338xxay2E1.ogg?generation=1541015164749315&amp;alt=media" type="audio/ogg">
+      Su navegador no soporta audios.
+      </audio>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-8">
+    <div class="container-fluid">
+      <div class="letrasNegras" id="perfil">
+        <h5 id="perfilProfesional">Soy una diseñadora gráfica con años de experiencia en agencias de publicidad. especializada en ilustración digital en 2D para redes sociales. Estoy en busca de utilizar mis conocimientos para alcanzar los objetivos del área de diseño de esta compañía.</h5>
+      </div>
+      <h3 class="letrasNegras">Experiencia Laboral</h3>
+      <div class="letrasNegras" id="trabajos">
+        <h4> - 2019 <a href="http://www.cocacoladeargentina.com.ar">The Coca-Cola Company</a> <button class="botones" type="button" onclick="mostrarCocacola()">Mostrar/Ocultar</button> </h4>
+        <div id="cocacola" style="display: none;">
+          <p>Diseño del logo de la marca Powerade</p>
+          <img class="imagenes" src="http://1000marcas.net/wp-content/uploads/2021/04/Powerade-Logo.png">
+        </div>
+        <h4> - 2016/17 <a href="http://corporate.danone.com.ar">Grupo Danone S.A.</a> <button class="botones" type="button" onclick="mostrarDanone()">Mostrar/Ocultar</button> </h4>
+        <div id="danone" style="display: none;">
+          <p>Diseño del logo de la marca Danette (2017)</p>
+          <img class="imagenes" src="http://upload.wikimedia.org/wikipedia/commons/0/0c/Danette_Logo.svg">
+          <p>Diseño del logo de la marca Activia (2016)</p>
+          <img class="imagenes" src="http://logos-world.net/wp-content/uploads/2022/05/Activia-Symbol.png">
+        </div>
+        <h4> - 2014 <a href="http://www.coto.com.ar">Coto C.I.C.S.A.</a> <button class="botones" type="button" onclick="mostrarCoto()">Mostrar/Ocultar</button> </h4>
+        <div id="coto" style="display: none;">
+          <p>Diseño del logo de la marca Ciudad del Lago</p>
+          <img class="imagenes" src="http://tuquejasuma.com/media/images/entity228003_square.png">
+        </div>
+          <h4> - 2012 <a href="http://www.mostazaweb.com.ar">Mostaza y Pan S.A.</a> <button class="botones" type="button" onclick="mostrarMostaza()">Mostrar/Ocultar</button> </h4>
+        <div id="mostaza" style="display: none;">
+          <p>Diseño del logo de la marca Mostaza</p>
+          <img class="imagenes" src="http://i.pinimg.com/originals/70/16/51/7016513ff68435b34e13a0ef8433e18f.jpg">
+        </div>
+      </div>
+
+      <h3 class="letrasNegras">Formación Académica</h3>
+      <div class="letrasNegras" id="estudios">
+        <p>Facultad de Arquitectura, Diseño y Urbanismo. Universidad de Buenos Aires. Intendente Guiraldes 2160, Pabellón III, CABA. <a href="http://www.fabu.uba.ar">Sitio</a>
+        </p>
+      </div>
+
+      <h3 class="letrasNegras">Aptitudes</h3>
+      <div class="letrasNegras" id="aptitudes">
+        <ul>
+          <li>Resolución de incidentes.</li>
+          <li>Hábil en la gestión de archivos y registros.</li>
+          <li>Vigilancia y atención a los detalles.</li>
+          <li>Conocedora de políticas y procedimientos de seguridad.</li>
+          <li>Personalidad dinámica y responsable.</li>
+        </ul>
+      </div>
+
+      <h3 class="letrasNegras">Información Adicional</h3>
+      <div class="letrasNegras" id="adicional">
+        <ul>
+          <li>Movilidad geográfica.</li>
+          <li>Flexibilidad horaria.</li>
+          <li>Disponibilidad para trabajar fines de semana.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="cv-final.js"></script>
+</body>
+</html>
